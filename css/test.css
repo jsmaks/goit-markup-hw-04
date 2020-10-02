@@ -1,12 +1,16 @@
-.social-links .link {
-  color: teal;
+.button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: greenyellow;
+  color: #2a2a2a;
 }
-
-.social-links .link:hover,
-.social-links .link:focus {
-  color: orange;
-}
-
-/* .social-links .link:active {
-  color: red;
+/* .button-icon {
+  width: 100px;
+  height: 100px;
 } */
+
+.actions {
+  list-style: none;
+  display: flex;
+}
